@@ -1,0 +1,53 @@
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
+    background-size: 10px 10px;
+    height: 100vh;
+}
+
+body.h1 {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#console {
+    width: 80%;
+    height: 300px;
+    background-color: #000;
+    color: #dcdcdc;
+    padding: 10px;
+    overflow-y: auto;
+    border: 1px solid #333;
+    margin-top: 20px;
+}
+
+#input-line {
+    display: flex;
+    align-items: center;
+}
+
+#input {
+    background: none;
+    border: none;
+    color: inherit;
+    width: 100%;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+#output {
+    margin-bottom: 10px;
+}
